@@ -29,9 +29,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 X_FRAME_OPTIONS = '*'
-CORS_ALLOW_ORIGIN_ALL = True
+CORS_ORIGIN_ALLOW_ALL = True
 CSRF_TRUSTED_ORIGINS = [
-  'http://0.0.0.0:3000', 'http://127.0.0.1:8000/']
+  'http://127.0.0.1:8000/']
 
 
 # Application definition
